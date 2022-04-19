@@ -28,7 +28,7 @@ public class asgn2 {
 		outFile = new ArrayList<String>();
 		mntPtr = 0; mdtPtr = 0; filePtr = 0;alaPtr = 0;
 		
-		BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream("C:\\Users\\adwai\\Documents\\Cse\\Trimesterz IX\\SSC\\programs\\asgn2\\input.txt")));
+		BufferedReader input = new BufferedReader(new InputStreamReader(new FileInputStream("input.txt")));
 		String s;
 		boolean processingMacroDefinition = false;
 		boolean processMacroName = false;
